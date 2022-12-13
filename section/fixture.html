@@ -5,54 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cronograma actualizado de la liga y resultados anteriores">
+    <meta name="keywords" content="fixture cronograma partidos">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/estilos.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Fixture</title>
 </head>
 
 <body>
     <div class="envoltura">
-    <header>
-        <div class="barraArriba">
-            <nav class="nav1">
-                <ul class="ul-der">
-                    <li>
-                        <a href=""><img class="icono-nav" src="../images/002-alerta.png" alt="importante">CUOTA 7
-                            VIGENTE</a>
-                    </li>
-                    <li>
-                        <a href=""><img class="icono-nav" src="../images/003-calendario.png"
-                                alt="Calendario">Calendario</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="text-center">
-            <a href=""><img class="logo" src="../images/liga cubb.jpg" alt="Liga CUBB"></a>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-nav">
-            <div class="container-fluid">
-                <a class="navbar-brand text-white fw-bold fs-1 " href="../index.html">CUBB</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active text-white fs-4" aria-current="page" href="./fixture.html">Fixture</a>
-                        <a class="nav-link active text-white fs-4" href="./clasificacion.html">Clasificacion</a>
-                        <a class="nav-link active text-white fs-4" href="./estadisticas.html">Estadisticas</a>
-                        <a class="nav-link active text-white fs-4" href="./informacion.html" tabindex="-1"
-                            aria-disabled="true">Informacion</a>
+        <header>
+            <div class="barraArriba">
+                <nav class="nav1">
+                    <ul class="ul-der">
+                        <li>
+                            <a href=""><img class="icono-nav" src="../images/002-alerta.png" alt="importante">CUOTA 7
+                                VIGENTE</a>
+                        </li>
+                        <li>
+                            <a href=""><img class="icono-nav" src="../images/003-calendario.png"
+                                    alt="Calendario">Calendario</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="text-center">
+                <a href=""><img class="logo" src="../images/liga cubb.jpg" alt="Liga CUBB"></a>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white fw-bold fs-1 " href="../index.html">CUBB</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active text-white fs-4" aria-current="page"
+                                href="./fixture.html">Fixture</a>
+                            <a class="nav-link active text-white fs-4" href="./clasificacion.html">Clasificacion</a>
+                            <a class="nav-link active text-white fs-4" href="./estadisticas.html">Estadisticas</a>
+                            <a class="nav-link active text-white fs-4" href="./informacion.html" tabindex="-1"
+                                aria-disabled="true">Informacion</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
     </div>
-<body>
+    <div class="container-fixture">
+        <div class="row">
+            <div class="col">
+                <table class="table table-bordered border-dark">
+                    <h2>SABADO</h2>
+                    <thead>
+                        <th class="table-secondary">15:15</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cancha 10</td>
+                            <td>Fuerte al medio</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>Inqui</td>
+                        </tr>
+                        <tr>
+                            <td>Cancha 11</td>
+                            <td>Bafangulo</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>The Birds</td>
+                        </tr>
+                    </tbody>    
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table table-bordered border-dark">
+                    <h2>DOMINGO</h2>
+                    <thead>
+                        <th class="table-secondary">15:15</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cancha 10</td>
+                            <td>Caccacioli</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>La Bigornia</td>
+                        </tr>
+                        <tr>
+                            <td>Cancha 11</td>
+                            <td>Sin contrato</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>Ultracueva</td>
+                        </tr>
+                    </tbody>
+                </table>    
+            </div>
+        </div>
+    </div>
     <footer>
         <p class="pie">
             Propietario Recari S.A. Todos los derechos reservados.
