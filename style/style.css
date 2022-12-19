@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  margin: auto;
 }
 
 .barraArriba {
@@ -116,11 +117,15 @@ footer {
   color: red;
 }
 
+.container-car {
+  margin: auto;
+}
+
 main {
   background-color: rgb(236, 229, 230);
   border: 5px solid black;
   margin-top: 5em;
-  width: 1000px;
+  width: auto;
   margin-bottom: 5em;
 }
 main p {
@@ -143,6 +148,7 @@ main p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 .articulos {
@@ -189,6 +195,15 @@ main p {
   border-bottom: 3px solid red;
 }
 
+.container-fixture, .container-clas, .container-est, .container-contacto {
+  margin: auto;
+  width: 90%;
+}
+
+.container-contacto {
+  text-align: left;
+}
+
 @media (max-width: 700px) {
   .envoltura {
     display: grid;
@@ -200,6 +215,9 @@ main p {
     display: flex;
     flex-direction: row;
     justify-content: right;
+  }
+  .container-car {
+    margin: auto;
   }
   .articulos {
     text-align: center;
@@ -231,6 +249,9 @@ main p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+  .container-car {
+    margin: auto;
   }
   .articulos {
     text-align: center;
