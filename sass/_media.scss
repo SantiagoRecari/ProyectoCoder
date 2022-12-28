@@ -1,6 +1,6 @@
 
 @media(max-width:700px){
-    .envoltura{
+    body{
         display: grid;
         grid-template-areas: 
         "header"
@@ -19,28 +19,34 @@
     .container-car{
         margin: auto;
     }
+    .contenidoIndex{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
     .articulos{
         text-align: center;
         display: row;
         justify-content: center;
-        width: 400px;
+        width: 40%;
     }
 
     main{
-        width: 600px;
+        width: 60%;
     }
     .titulo-main{
         background-image:url(../images/cacacioli.jpg);
         background-position: center;
         color: white;
         font-family: 'Anton', sans-serif;
-        font-size: 100px;
+        font-size: 50px;
         text-align: center;
     }
 }
 
 @media(max-width:1024px){
-    .envoltura{
+    body{
         margin-bottom: 1,5em;
         display: grid;
         grid-template-areas: 
@@ -70,7 +76,7 @@
         width: 600px;
     }
     .titulo-main{
-        font-size: 120px;
+        font-size: 600%;
     }
     .titulo-car{
         font-size: 80px;
